@@ -6,7 +6,7 @@
       <div>
         <NuxtLink
           to="/"
-          class="px-3 py-1 rounded-lg font-bold text-2xl text-slate-800 hover:bg-slate-100 dark:text-slate-100 dark:hover:bg-slate-800 transition duration-150"
+          class="px-3 py-1 rounded-xl font-bold text-2xl text-slate-800 hover:bg-slate-100 dark:text-slate-100 dark:hover:bg-slate-800 transition duration-150"
           >Конспект</NuxtLink
         >
       </div>
@@ -18,14 +18,14 @@
           <li>
             <NuxtLink
               to="/blog"
-              class="px-4 py-2 rounded-lg font-semibold text-lg text-slate-800 hover:bg-slate-100 dark:text-slate-100 dark:hover:bg-slate-800 transition duration-150"
+              class="px-4 py-2 rounded-xl font-semibold text-lg text-slate-800 hover:bg-slate-100 dark:text-slate-100 dark:hover:bg-slate-800 transition duration-150"
               >Блог</NuxtLink
             >
           </li>
           <li>
             <NuxtLink
               to="/drafts"
-              class="px-4 py-2 rounded-lg font-semibold text-lg text-slate-800 hover:bg-slate-100 dark:text-slate-100 dark:hover:bg-slate-800 transition duration-150"
+              class="px-4 py-2 rounded-xl font-semibold text-lg text-slate-800 hover:bg-slate-100 dark:text-slate-100 dark:hover:bg-slate-800 transition duration-150"
               >Черновики</NuxtLink
             >
           </li>
