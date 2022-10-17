@@ -45,7 +45,7 @@ const { data } = await useAsyncData(() => {
         <div
           v-for="tag in post.tags"
           :key="tag"
-          class="px-2 py-0.5 mr-2 mt-2 leading-4 border border-slate-300 text-sm text-slate-500 group-hover:text-slate-600 dark:border-slate-600 dark:text-slate-500 dark:group-hover:text-slate-400 rounded-lg whitespace-nowrap transition duration-150 z-20"
+          class="px-2 py-0.5 mr-2 mt-2 leading-4 border border-slate-300 text-sm text-slate-500 group-hover:text-slate-600 dark:border-slate-600 dark:text-slate-500 dark:group-hover:text-slate-400 rounded-xl whitespace-nowrap transition duration-150 z-20"
         >
         {{ tag }}
         </div>
