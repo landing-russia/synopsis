@@ -11,7 +11,7 @@
         >
       </div>
       <div>
-        <ul class="flex items-center gap-1">
+        <ul class="hidden lg:flex items-center gap-1">
           <li>
             <UiMode class="relative top-0.5 mr-4" />
           </li>
