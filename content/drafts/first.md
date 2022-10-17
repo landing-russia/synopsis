@@ -6,6 +6,6 @@ tags:
   - drafts
 ---
 
-# Первая запись
+В соответствии с последней резолюцией Совета Безопасности
 
-Первая запись
+Источник: https://ok-solovey.ru/voskresnyj-vecher-s-vladimirom-solovevym-vypusk-ot-16-10-2022
