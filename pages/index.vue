@@ -14,7 +14,7 @@ const { data } = await useAsyncData(() => {
   >
     <NuxtLink
       :to="post._path"
-      class="group p-4 bg-white shadow hover:shadow-md dark:bg-slate-900 border border-slate-200 hover:border-slate-300 dark:border-slate-700 dark:hover:border-slate-500 rounded-lg transition duration-150"
+      class="group p-4 bg-white shadow hover:shadow-lg dark:bg-slate-900 border border-slate-200 hover:border-slate-300 dark:border-slate-700 dark:hover:border-slate-500 rounded-xl transition duration-150"
       v-for="post in data"
       :key="post._id"
     >
