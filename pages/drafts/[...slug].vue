@@ -11,7 +11,7 @@
           })
         }}
       </div>
-      <h1>
+      <h1 class="leading-tight lg:leading-snug">
         {{ doc.title }}
       </h1>
       <ContentRenderer :value="doc" />

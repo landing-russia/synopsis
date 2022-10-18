@@ -20,7 +20,7 @@ module.exports = {
         "3xl": "1900px",
       },
       fontFamily: {
-        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         "dark-rose": "#62011F",

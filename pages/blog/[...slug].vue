@@ -11,11 +11,14 @@
           })
         }}
       </div>
-      <h1>
+      <h1 class="leading-tight lg:leading-snug">
         {{ doc.title }}
       </h1>
       <ContentRenderer :value="doc" />
-      <div v-if="doc.tags" class="flex flex-wrap items-center justify-start mt-1">
+      <div
+        v-if="doc.tags"
+        class="flex flex-wrap items-center justify-start mt-1"
+      >
         <a
           :href="`/tag/${tag}`"
           v-for="tag in doc.tags"
@@ -28,3 +31,5 @@
     </ContentDoc>
   </main>
 </template>
+
+
