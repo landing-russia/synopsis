@@ -29,11 +29,14 @@ const { data } = await useAsyncData(() => {
         }}
       </div>
       <h3
-        class="leading-5 font-bold text-base text-slate-600 dark:text-slate-300  dark:group-hover:text-slate-100 transition duration-150"
+        class="line-clamp-2 font-serif leading-5 font-bold text-base text-slate-600 dark:text-slate-300 dark:group-hover:text-slate-100 transition duration-150"
       >
         {{ post.title }}
       </h3>
-      <div v-if="post.tags" class="flex flex-wrap items-center justify-start mt-1">
+      <div
+        v-if="post.tags"
+        class="flex flex-wrap items-center justify-start mt-1"
+      >
         <div
           v-for="tag in post.tags"
           :key="tag"

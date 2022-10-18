@@ -1,7 +1,7 @@
 <template>
   <main>
     <ContentDoc v-slot="{ doc }">
-      <div class="text-xs text-slate-500 mb-6">
+      <div class="text-sm text-slate-500 mb-6">
         {{
           new Date(doc.date).toLocaleDateString("ru", {
             // weekday: "long",
@@ -11,7 +11,7 @@
           })
         }}
       </div>
-      <h1 class="leading-tight lg:leading-snug">
+      <h1 class="leading-tight">
         {{ doc.title }}
       </h1>
       <ContentRenderer :value="doc" />
@@ -23,7 +23,7 @@
           :href="`/tag/${tag}`"
           v-for="tag in doc.tags"
           :key="tag"
-          class="px-2 py-0.5 mr-2 mt-2 leading-4 border border-slate-300 text-sm text-slate-500 group-hover:text-slate-600 dark:border-slate-600 dark:text-slate-500 dark:group-hover:text-slate-400 rounded-xl whitespace-nowrap transition duration-150"
+          class="px-2 py-1 mr-2 mt-2 leading-4 border border-slate-300 text-base text-slate-500 group-hover:text-slate-600 dark:border-slate-600 dark:text-slate-500 dark:group-hover:text-slate-400 rounded-xl whitespace-nowrap transition duration-150"
         >
           {{ tag }}
         </a>

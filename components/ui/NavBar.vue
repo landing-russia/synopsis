@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full max-w-screen-xl mx-auto lg:px-4 lg:py-6">
+  <div class="font-serif w-full max-w-screen-xl mx-auto lg:px-4 lg:py-6">
     <nav
       class="px-1.5 lg:px-4 py-3 flex items-end justify-between bg-white dark:bg-slate-900 lg:rounded-xl shadow"
     >

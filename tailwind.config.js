@@ -21,7 +21,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
-        serif: ["Alegreya SC", ...defaultTheme.fontFamily.serif],
+        serif: ["Bitter", ...defaultTheme.fontFamily.serif],
       },
       colors: {
         "dark-rose": "#62011F",
