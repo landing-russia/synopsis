@@ -1,5 +1,8 @@
 <script setup lang="ts">
 definePageMeta({ layout: "main" })
+useHead({
+  title: "Блог",
+})
 const { data } = await useAsyncData(() => {
   return queryContent("/blog")
     .sort({ date: -1 }) // show latest articles first

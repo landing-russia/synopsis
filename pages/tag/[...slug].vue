@@ -1,5 +1,8 @@
 <script setup lang="ts">
 definePageMeta({ layout: "main" })
+useHead({
+  title: "Тэги",
+})
 const route = useRoute()
 const pathTo = route.params.slug.toString()
 const { data } = await useAsyncData(() => {
