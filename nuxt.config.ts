@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     storageKey: "nuxt-color-mode",
   },
   content: {
+    watch: false,
     highlight: {
       theme: "material-darker",
     },
